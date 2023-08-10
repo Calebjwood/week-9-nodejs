@@ -1,8 +1,7 @@
 
 const inquirer = require("inquirer")
 const fs = require("fs");
-const { log } = require("console");
-const { default: Choices } = require("inquirer/lib/objects/choices");
+const generateMarkdown = require("./utils/generateMarkdown")
 
 function questions(){
     inquirer
@@ -61,7 +60,7 @@ function questions(){
             }
         ])
         .then((answers) =>{
-            console.log(answers);
+         generateMarkdown(answers)
         }
         )
 }
