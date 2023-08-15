@@ -50,12 +50,16 @@ function questions(){
             }
         ])
         .then((answers) =>{
-         generateMarkdown(answers)
+        writeToFile(answers.title, generateMarkdown(answers))
         }
         )
 }
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(`${fileName}.md`, data, (err) =>
+    err ? console.log(err) : console.log('README has successfully been gererated!')
+    )
+}
 
 // TODO: Create a function to initialize app
 function init() {
