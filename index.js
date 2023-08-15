@@ -13,6 +13,11 @@ function questions(){
             },
             {
                 type: 'input',
+                message: 'What is your Name?',
+                name: 'name'
+            },
+            {
+                type: 'input',
                 message: "describe your project.",
                 name: "description"
             },
@@ -37,6 +42,16 @@ function questions(){
                 name: "test"
             },
             {
+                type: 'input',
+                message: 'what email would the user reach you at if they had questions',
+                name: 'email'
+            },
+            {
+                type: 'input',
+                message: 'what is your GitHub username',
+                name: 'github'
+            },
+            {
                 type: 'list',
                 message: "what license do you wish you use?",
                 name: "license",
@@ -56,7 +71,7 @@ function questions(){
 }
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(`${fileName}.md`, data, (err) =>
+    fs.writeFile(`./new readme/${fileName}.md`, data, (err) =>
     err ? console.log(err) : console.log('README has successfully been gererated!')
     )
 }
