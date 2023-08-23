@@ -1,9 +1,9 @@
-# README
+# sample
 ## Description
 
 
 
-This app is made to prompt you with a list of question and the creat a readme for you based of of your answers
+this is a test for the walkthrough
 
 ## Table of Contents 
 - [Installation](#installation)
@@ -14,15 +14,13 @@ This app is made to prompt you with a list of question and the creat a readme fo
 
 
 ## Installation
-In the terminal enter the directory that you have the app located in and, then run 'nmp install' then the app will download the dependent files it needs. Then run node index. J's in the terminal.
+download at github
 
 
 
 
 ## Usage
-After you have run node index. js in the terminal then you will be prompted with multiple question. After you have answered all of them, then a new readme will be created inside of the new readme folder that is in the same directory as the index. js.
-there is a video walkthrough at this link
-https://drive.google.com/file/d/1VQyhvjHRc7ixZBItdWVPQbnVB9f7_DwM/view
+use video walkthrough
 
 
 
@@ -35,7 +33,7 @@ https://drive.google.com/file/d/1VQyhvjHRc7ixZBItdWVPQbnVB9f7_DwM/view
 ## License
 https://www.isc.org/licenses/
 
-Copyright (c) Caleb Wood
+Copyright (c) Jon
 
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above
@@ -50,17 +48,17 @@ PERFORMANCE OF THIS SOFTWARE.
 
 
 ## How to Contribute
-there is no need to contribute to this app it is a class project
+NA
 
 
 
 ## Tests
-no current test at this time  
+NA  
  
 
 
  #Questions
- If you have and questions you can reach me at Calebjwood@gmail.com
+ If you have and questions you can reach me at ?
 
- GitHub: https://github.com/Calebjwood
+ GitHub: https://github.com/?
  
