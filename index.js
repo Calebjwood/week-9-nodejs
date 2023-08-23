@@ -71,7 +71,7 @@ function questions(){
 }
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(`./new readme/${fileName}.md`, data, (err) =>
+    fs.writeFile(`./output/${fileName}.md`, data, (err) =>
     err ? console.log(err) : console.log('README has successfully been gererated!')
     )
 }
